@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Actividades nivel III | Ciudadanía digital 9vo grado EBI </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Hernandez Santiago" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-10"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Ciudadanía digital 9vo grado EBI</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="descrip_del_recurso.html" class="no-ch">Descrip del recurso</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li><a href="gua_docente.html" class="no-ch">Guía docente</a></li>
+   <li><a href="actividades_para_estudiantes.html" class="no-ch">Actividades para estudiantes</a></li>
+   <li><a href="actividades_nivel_i.html" class="no-ch">Actividades nivel I</a></li>
+   <li><a href="actividades_nivel_ii.html" class="no-ch">Actividades Nivel II</a></li>
+   <li id="active"><a href="actividades_nivel_iii.html" class="active no-ch">Actividades nivel III</a></li>
+   <li><a href="evaluacin_sugerida.html" class="no-ch">Evaluación sugerida</a></li>
+   <li><a href="bibliografa.html" class="no-ch">Bibliografía</a></li>
+   <li><a href="descargar_recurso.html" class="no-ch">Descargar recurso</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="actividades_nivel_ii.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="evaluacin_sugerida.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Actividades nivel III</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id10">
+<div class="iDevice emphasis0" >
+<div id="ta10_128_2" class="block iDevice_content">
+<div class="exe-text"><!-- Actividad avanzada: Completar espacios en blanco -->
+<div style="background-color: #f0f9ff; padding: 20px; border-radius: 8px; border-left: 4px solid #3b82f6; margin-bottom: 30px;">
+<h3 style="color: #1e40af; margin-bottom: 15px;">Actividad Avanzada: Completá el texto</h3>
+<!-- Texto fuente -->
+<div style="background-color: #dbeafe; padding: 20px; border-radius: 6px; font-size: 15px; line-height: 1.6; margin-bottom: 20px;"><strong>Lectura previa:</strong><br /><br />Antes de compartir algo en redes sociales, es importante <strong>pensar</strong> en las consecuencias. Una vez publicado, ese contenido puede ser <strong>compartido</strong> por muchas personas sin nuestro control. Además, es fundamental <strong>evitar</strong> publicar fotos o datos de otras personas sin su <strong>permiso</strong>. Estas acciones promueven un entorno digital más seguro y respetuoso.</div>
+<!-- Instrucción -->
+<p style="color: #374151; margin-bottom: 20px;">Leé el texto anterior y completá los espacios vacíos del siguiente párrafo con las palabras adecuadas.</p>
+<!-- Párrafo para completar -->
+<div style="background-color: #dbeafe; padding: 20px; border-radius: 6px; font-size: 15px; line-height: 1.7;">En redes sociales, es importante <input type="text" id="blank1" style="width: 120px; padding: 5px; font-size: 14px;" /> antes de publicar, ya que el contenido puede ser <input type="text" id="blank2" style="width: 120px; padding: 5px; font-size: 14px;" /> por muchas personas. También se debe <input type="text" id="blank3" style="width: 120px; padding: 5px; font-size: 14px;" /> el uso de imágenes de otras personas sin su <input type="text" id="blank4" style="width: 120px; padding: 5px; font-size: 14px;" />.</div>
+<button onclick="checkFillInBlanks()" style="margin-top: 15px; background-color: #1e40af; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;"> Verificar respuestas </button>
+<div id="fill-feedback" style="display: none; margin-top: 20px; padding: 15px; border-radius: 6px; font-size: 14px;"></div>
+</div>
+<p>
+<script>
+function checkFillInBlanks() {
+    const answers = {
+        blank1: "pensar",
+        blank2: "compartido",
+        blank3: "evitar",
+        blank4: "permiso"
+    };
+
+    let correctCount = 0;
+    const total = Object.keys(answers).length;
+
+    for (let key in answers) {
+        const input = document.getElementById(key);
+        if (input.value.trim().toLowerCase() === answers[key]) {
+            input.style.backgroundColor = "#d1fae5";
+            input.style.color = "#065f46";
+            input.style.border = "1px solid #10b981";
+            correctCount++;
+        } else {
+            input.style.backgroundColor = "#fee2e2";
+            input.style.color = "#991b1b";
+            input.style.border = "1px solid #ef4444";
+        }
+    }
+
+    const feedback = document.getElementById("fill-feedback");
+    feedback.style.display = "block";
+
+    if (correctCount === total) {
+        feedback.style.backgroundColor = "#d1fae5";
+        feedback.style.color = "#065f46";
+        feedback.style.border = "1px solid #10b981";
+        feedback.innerHTML = "✅ ¡Excelente! Completaste todas las palabras correctamente. Estás demostrando comprensión y compromiso con el uso responsable de redes.";
+    } else if (correctCount >= 2) {
+        feedback.style.backgroundColor = "#fef9c3";
+        feedback.style.color = "#92400e";
+        feedback.style.border = "1px solid #facc15";
+        feedback.innerHTML = `🔄 ¡Bien! Completaste ${correctCount} de ${total} correctamente. Revisá los espacios marcados en rojo y volvé a intentarlo. Si tenés dudas, podés consultarlo con un profesor o un adulto de confianza.`;
+    } else {
+        feedback.style.backgroundColor = "#fee2e2";
+        feedback.style.color = "#991b1b";
+        feedback.style.border = "1px solid #ef4444";
+        feedback.innerHTML = `⚠️ Solo completaste correctamente ${correctCount} de ${total}. Te sugerimos releer el texto fuente con atención. Si necesitás ayuda, hablalo con tu profesor, adscripto o un adulto responsable.`;
+    }
+}
+</script>
+</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice" id="id11">
+<div class="iDevice emphasis0" >
+<div id="ta11_129_2" class="block iDevice_content">
+<div class="exe-text"><p></p>
+<!-- saved from url=(0125)https://gensparkpublicblob.blob.core.windows.net/user-upload-image/page/toolu_01QmpVk4JgikTsAnR7Wx2ehq/actividadesN3_9no.html -->
+<p></p>
+<style>
+    .section-card { background:#fff7ed; padding:20px; border-radius:8px; margin-bottom:30px; }
+    .section-header { margin-bottom:15px; }
+    .section-header h3 { color:#ea580c; }
+    .context { background:#ffedd5; padding:20px; border-radius:6px; line-height:1.6; margin-bottom:20px; }
+    .frame { background:#f0f9ff; padding:15px; border-radius:6px; margin-bottom:20px; }
+    .btn { display:inline-block; padding:10px 20px; border:none; border-radius:4px; cursor:pointer; color:#fff; text-decoration:none; }
+    .btn-verify { background:#f97316; }
+    .btn-validate { background:#22c55e; }
+    .feedback { display:none; padding:15px; border-radius:6px; margin-top:15px; }
+    .feedback-insti { background:#ecfdf5; border-left:4px solid #10b981; }
+    .feedback-crisis { background:#fef3c7; border-left:4px solid #f59e0b; }
+    .feedback-comp { background:#eff6ff; border-left:4px solid #3b82f6; }
+  </style>
+<!-- Actividad Avanzada Nivel III -->
+<div class="section-card">
+<div class="section-header">
+<h3>Actividad Avanzada Nivel III: Análisis de Políticas Digitales</h3>
+</div>
+<div class="context"><strong>Situación Institucional:</strong><br /><br />Como integrante del Consejo Estudiantil, debes evaluar la nueva política de uso de dispositivos digitales que propone la administración del liceo. La propuesta incluye monitoreo de actividad en red, restricciones de acceso a ciertas plataformas y recolección de datos de navegación para "mejorar la experiencia educativa". Algunos padres apoyan estas medidas por seguridad, otros las consideran invasivas. Tu análisis influirá en la decisión final del Consejo.</div>
+<p>Analiza la propuesta desde múltiples perspectivas: legal, ética, pedagógica y de derechos estudiantiles.</p>
+<div><strong>1. Evaluación de Proporcionalidad:</strong><br /><em>Actividad de debate (15 min):</em> en grupos, discutan si las medidas son desproporcionadas, proporcionales o requieren modificaciones. Cada grupo presenta su conclusión en 2 min.</div>
+<div><strong>2. Alternativas Recomendadas:</strong><br /><em>Actividad colaborativa (20 min):</em> en un documento en línea, cada grupo propondrá al menos 3 alternativas que equilibren seguridad educativa y derechos de privacidad.</div>
+<div><strong>3. Argumentación Legal:</strong><br /><em>Actividad de búsqueda jurídica (15 min):</em> consulten el texto de la Ley 18.331 (Art. 11, Art. 17) y publiquen en el foro digital las citas exactas que sustenten su posición.</div>
+<button class="btn btn-verify" onclick="document.getElementById('feedback-insti').style.display='block'"> Verificar Análisis </button>
+<div id="feedback-insti" class="feedback feedback-insti"><strong>Retroalimentación Experta:</strong>
+<p>La Ley 18.331 exige consentimiento informado para tratamiento de datos de menores (Art. 11) y el Art. 16 de la Convención sobre los Derechos del Niño protege la privacidad estudiantil. Las alternativas más sólidas suelen incluir políticas de uso consensuadas, educación digital proactiva, sistemas de filtrado transparentes y mecanismos de supervisión con participación estudiantil.</p>
+</div>
+</div>
+<!-- Simulación: Crisis de Brecha de Seguridad -->
+<div class="section-card">
+<div class="section-header">
+<h3>Simulación: Crisis de Brecha de Seguridad Institucional</h3>
+</div>
+<div class="context"><strong>Escenario de Crisis:</strong><br /><br />A las 14:30 de un martes, el POITE detecta que datos de 2.400 estudiantes fueron accedidos por una IP externa no autorizada. Como parte del equipo de gestión digital estudiantil, debes coordinar la respuesta siguiendo protocolos legales uruguayos. El director espera tu plan en 45 min.</div>
+<div><strong>Prioridad 1 – Primeras 2 horas:</strong><br /><em>Actividad práctica (10 min):</em> identifiquen y ordenen las acciones críticas (notificar URCDP, aislar sistemas, comunicar crisis, coordinar con ANEP).</div>
+<div><strong>Comunicación a Familias:</strong><br /><em>Actividad de redacción (10 min):</em> redacten el mensaje clave para familias, siguiendo criterios de transparencia y legalidad.</div>
+<div><strong>Medidas de Contención y Prevención:</strong><br /><em>Actividad de lista (10 min):</em> elaboren un checklist de medidas técnicas y procedimentales para prevenir futuros incidentes.</div>
+<button class="btn btn-verify" onclick="document.getElementById('feedback-crisis').style.display='block'"> Validar Plan de Crisis </button>
+<div id="feedback-crisis" class="feedback feedback-crisis"><strong>Evaluación del Plan:</strong>
+<p>URCDP debe ser notificada en 72 h (Art. 17, Ley 18.331), aunque notificar de inmediato demuestra buena fe. La comunicación a familias debe explicar qué datos se vieron afectados, medidas tomadas y próximos pasos. Para prevenir nuevos incidentes: auditorías regulares, capacitación docente, segmentación de redes y controles de acceso por roles.</p>
+</div>
+</div>
+<!-- Análisis Comparativo Internacional -->
+<div class="section-card">
+<div class="section-header">
+<h3>Análisis Comparativo: Regulaciones Digitales Internacionales</h3>
+</div>
+<div class="context"><strong>Desafío Analítico:</strong><br /><br />Comparar enfoques sobre uso de IA en evaluaciones estudiantiles entre Uruguay (Ley 18.331), Argentina (Ley 25.326), Chile (Ley 19.628) y España (RGPD), con énfasis en decisiones automatizadas que afectan a menores.</div>
+<div><strong>Matriz de Análisis Comparativo:</strong><br /><em>Actividad de investigación (20 min):</em> completen la tabla en un documento colaborativo, identificando diferencias en consentimiento para menores y regulación de decisiones automatizadas.</div>
+<div><strong>Recomendación Regulatoria:</strong><br /><em>Actividad de propuesta (20 min):</em> formulen 5 mejoras específicas para la regulación uruguaya sobre IA en educación, equilibrando innovación y protección de derechos.</div>
+<button class="btn btn-validate" onclick="document.getElementById('feedback-comp').style.display='block'"> Validar Análisis Comparativo </button>
+<div id="feedback-comp" class="feedback feedback-comp"><strong>Retroalimentación Regulatoria:</strong>
+<p>El RGPD europeo (Art. 22) es más estricto en decisiones automatizadas. Las buenas prácticas incluyen derecho a explicación, auditorías regulares, transparencia en criterios, apelación humana y prohibición de perfilado de menores sin consentimiento específico.</p>
+</div>
+</div>
+<!-- Herramientas de verificación de enlaces -->
+<div class="section-card" style="border-left: 4px solid #3b82f6; background: #f0f9ff;">
+<div class="section-header">
+<h3>Verificación de enlaces recomendados</h3>
+</div>
+<p>Utiliza estas herramientas para comprobar si un enlace es seguro o podría contener malware:</p>
+<ul>
+<li><a href="https://www.virustotal.com/gui/home/url" target="_blank" rel="noopener">VirusTotal</a></li>
+<li><a href="https://www.urlvoid.com/" target="_blank" rel="noopener">URLVoid</a></li>
+<li><a href="https://transparencyreport.google.com/safe-browsing/search" target="_blank" rel="noopener">Google Safe Browsing</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="actividades_nivel_ii.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="evaluacin_sugerida.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
